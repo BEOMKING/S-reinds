@@ -5,12 +5,12 @@
 - Vue2
 - npm(v6.14.15)
 - 웹서버 : nginx
-- [k5d106.p.ssafy.io](http://k5d106.p.ssafy.io/) (SSL 적용)
+- [k5d106.p.ssafy.io](http://k5d106.p.ssafy.io/) (SSL 적용) (서버 지원 종료)
 
 프론트엔드 환경변수
 
 - frontend 폴더 안 '.env.local' 파일 생성
-- 'VUE_APP_SERVER_URL=https://k5d106.p.ssafy.io/api' 작성
+- 'VUE_APP_SERVER_URL=https://k5d106.p.ssafy.io/api' 작성 (서버 지원 종료)
 - npm i 후 npm run serve로 실행
 
 ---------------------------------------------------------------------------------------------------
