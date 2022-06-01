@@ -12,7 +12,6 @@ import com.project.autonomous.picture.service.DBFileStorageService;
 import com.project.autonomous.user.dto.request.LoginReq;
 import com.project.autonomous.user.dto.request.UserRegisterReq;
 import com.project.autonomous.user.repository.UserRepository;
-import java.io.IOException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -20,6 +19,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.io.IOException;
 
 @Service
 @Transactional(readOnly = true)

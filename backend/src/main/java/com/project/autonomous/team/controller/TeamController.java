@@ -1,22 +1,12 @@
 package com.project.autonomous.team.controller;
 
-import com.project.autonomous.common.exception.ErrorResponse;
 import com.project.autonomous.team.dto.request.ApplyPostReq;
 import com.project.autonomous.team.dto.request.AuthorityPostReq;
 import com.project.autonomous.team.dto.request.TeamCreatePostReq;
 import com.project.autonomous.team.dto.request.TeamModifyPostReq;
 import com.project.autonomous.team.dto.response.*;
-import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.team.service.TeamService;
-import com.project.autonomous.user.dto.request.UserModifyReq;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
-
-import java.io.IOException;
-import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.data.domain.Page;
@@ -29,6 +19,8 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.io.IOException;
+import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/teams")

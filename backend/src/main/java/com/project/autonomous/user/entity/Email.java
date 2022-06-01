@@ -4,7 +4,6 @@ import com.project.autonomous.common.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.annotation.processing.Generated;
 import javax.persistence.Entity;
 import java.time.LocalDateTime;
 

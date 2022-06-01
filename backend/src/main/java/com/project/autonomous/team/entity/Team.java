@@ -3,18 +3,12 @@ package com.project.autonomous.team.entity;
 import com.project.autonomous.common.entity.BaseEntity;
 import com.project.autonomous.picture.entity.Picture;
 import com.project.autonomous.user.entity.UserTeam;
-import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import java.sql.Date;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.BitSet;
 import java.util.List;
 
 @Entity

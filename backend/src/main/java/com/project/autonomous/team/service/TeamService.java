@@ -5,7 +5,6 @@ import com.project.autonomous.team.dto.request.AuthorityPostReq;
 import com.project.autonomous.team.dto.request.TeamCreatePostReq;
 import com.project.autonomous.team.dto.request.TeamModifyPostReq;
 import com.project.autonomous.team.dto.response.*;
-import com.project.autonomous.team.entity.Team;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

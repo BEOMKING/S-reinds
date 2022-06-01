@@ -1,8 +1,9 @@
 package com.project.autonomous.user.dto.request;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.util.List;
 import lombok.Getter;
+
+import java.util.List;
 
 @Getter
 public class InterestReq {

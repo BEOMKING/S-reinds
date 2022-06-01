@@ -1,14 +1,15 @@
 package com.project.autonomous.user.entity;
 
 import com.project.autonomous.team.entity.SportCategory;
-import java.io.Serializable;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.Embeddable;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import java.io.Serializable;
 
 @Getter
 @Embeddable

@@ -3,8 +3,6 @@ package com.project.autonomous.team.service;
 import com.project.autonomous.common.exception.CustomException;
 import com.project.autonomous.common.exception.ErrorCode;
 import com.project.autonomous.jwt.util.SecurityUtil;
-import com.project.autonomous.matchboard.comments.entity.MatchBoardComment;
-import com.project.autonomous.matchboard.posts.entity.MatchBoardPost;
 import com.project.autonomous.notification.entity.NoticeType;
 import com.project.autonomous.notification.service.NotificationService;
 import com.project.autonomous.team.dto.request.CommentModifyPutReq;

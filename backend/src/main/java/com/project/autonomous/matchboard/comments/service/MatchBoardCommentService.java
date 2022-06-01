@@ -14,12 +14,13 @@ import com.project.autonomous.notification.entity.NoticeType;
 import com.project.autonomous.notification.service.NotificationService;
 import com.project.autonomous.user.entity.User;
 import com.project.autonomous.user.repository.UserRepository;
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional(readOnly = true)

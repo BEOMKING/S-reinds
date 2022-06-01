@@ -3,14 +3,11 @@ package com.project.autonomous.team.controller;
 import com.project.autonomous.team.dto.request.CommentModifyPutReq;
 import com.project.autonomous.team.dto.request.CommentPostReq;
 import com.project.autonomous.team.dto.request.PostingReq;
-import com.project.autonomous.team.dto.request.TeamCreatePostReq;
 import com.project.autonomous.team.dto.response.CommentListRes;
 import com.project.autonomous.team.dto.response.CommentRes;
 import com.project.autonomous.team.dto.response.PostViewRes;
-import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.team.entity.TeamBoardComment;
 import com.project.autonomous.team.service.TeamBoardService;
-import com.project.autonomous.team.service.TeamService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -18,8 +15,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/teams/board")

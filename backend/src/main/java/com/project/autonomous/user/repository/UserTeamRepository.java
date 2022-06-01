@@ -4,7 +4,6 @@ import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.user.entity.User;
 import com.project.autonomous.user.entity.UserTeam;
 import com.project.autonomous.user.entity.UserTeamId;
-import java.util.List;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.data.jpa.repository.Query;
@@ -13,6 +12,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @Repository

@@ -1,19 +1,20 @@
 package com.project.autonomous.matchboard.posts.dto.response;
 
-import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
-
 import com.project.autonomous.matchboard.posts.entity.MatchBoardPost;
 import com.project.autonomous.user.dto.response.UserSimpleInfoRes;
 import com.project.autonomous.user.dto.response.UserTeamListRes;
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import javax.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.validation.constraints.NotBlank;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
+import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
 
 @Schema(title = "매치 게시글 상세 정보")
 @Getter

@@ -3,10 +3,11 @@ package com.project.autonomous.user.dto.response;
 import com.project.autonomous.picture.entity.Picture;
 import com.project.autonomous.user.entity.User;
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDate;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+
+import java.time.LocalDate;
 
 
 @Schema(title = "다른 유저 정보 조회", description = "다른 유저 정보를 조회하기 위한 Response Dto Class")

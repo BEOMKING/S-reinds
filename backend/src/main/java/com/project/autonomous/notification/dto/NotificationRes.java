@@ -1,10 +1,11 @@
 package com.project.autonomous.notification.dto;
 
 import com.project.autonomous.notification.entity.Notification;
-import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+
+import java.time.LocalDateTime;
 
 @Getter
 @Builder

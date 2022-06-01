@@ -4,7 +4,6 @@ import com.project.autonomous.team.entity.Calendar;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.ArrayList;
-import java.util.Optional;
 
 public interface CalendarRepository extends JpaRepository<Calendar, Long> {
     ArrayList<Calendar> findAllByTeamIdAndYearAndMonth(long teamId, int year, int month);

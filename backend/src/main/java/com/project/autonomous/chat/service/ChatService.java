@@ -4,7 +4,6 @@ import com.project.autonomous.chat.dto.request.ChatMessageReq;
 import com.project.autonomous.chat.dto.response.ChatRoomListRes;
 import com.project.autonomous.chat.dto.response.GetMSGByPartnerIdRes;
 import com.project.autonomous.chat.dto.response.GetMSGByPartnerIdRoomIdRes;
-import com.project.autonomous.chat.entity.ChatMessage;
 
 import java.util.List;
 

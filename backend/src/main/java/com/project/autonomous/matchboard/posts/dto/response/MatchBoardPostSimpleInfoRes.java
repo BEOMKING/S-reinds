@@ -1,17 +1,18 @@
 package com.project.autonomous.matchboard.posts.dto.response;
 
-import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
-
 import com.project.autonomous.matchboard.posts.entity.MatchBoardPost;
 import com.project.autonomous.user.dto.response.UserSimpleInfoRes;
 import com.project.autonomous.user.entity.User;
 import com.querydsl.core.annotations.QueryProjection;
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDateTime;
-import javax.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+
+import javax.validation.constraints.NotBlank;
+import java.time.LocalDateTime;
+
+import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
 
 @Schema(title = "매치 게시글 상세 정보")
 @Getter

@@ -1,12 +1,8 @@
 package com.project.autonomous.team.repository;
 
 import com.project.autonomous.team.dto.response.PostViewRes;
-import com.project.autonomous.team.dto.response.TeamListRes;
-import com.project.autonomous.team.entity.QTeam;
 import com.project.autonomous.team.entity.QTeamBoard;
-import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.team.entity.TeamBoard;
-import com.project.autonomous.user.dto.response.UserSimpleInfoRes;
 import com.project.autonomous.user.repository.UserRepository;
 import com.querydsl.core.QueryResults;
 import com.querydsl.jpa.impl.JPAQueryFactory;

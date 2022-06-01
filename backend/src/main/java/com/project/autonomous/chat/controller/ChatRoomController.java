@@ -3,7 +3,6 @@ package com.project.autonomous.chat.controller;
 import com.project.autonomous.chat.dto.response.ChatRoomListRes;
 import com.project.autonomous.chat.dto.response.GetMSGByPartnerIdRes;
 import com.project.autonomous.chat.dto.response.GetMSGByPartnerIdRoomIdRes;
-import com.project.autonomous.chat.entity.ChatMessage;
 import com.project.autonomous.chat.service.ChatService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;

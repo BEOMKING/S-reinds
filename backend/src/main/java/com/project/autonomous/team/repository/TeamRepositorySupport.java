@@ -2,11 +2,8 @@ package com.project.autonomous.team.repository;
 
 import com.project.autonomous.team.dto.response.TeamListRes;
 import com.project.autonomous.team.entity.QTeam;
-import com.project.autonomous.team.entity.SportCategory;
 import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.user.dto.response.UserSimpleInfoRes;
-import com.project.autonomous.user.entity.User;
-import com.project.autonomous.user.entity.UserInterest;
 import com.project.autonomous.user.repository.UserRepository;
 import com.querydsl.core.QueryResults;
 import com.querydsl.jpa.impl.JPAQueryFactory;
@@ -17,7 +14,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
-import javax.swing.text.html.parser.Entity;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,19 +1,19 @@
 package com.project.autonomous.matchboard.posts.repository;
 
-import static com.project.autonomous.matchboard.posts.entity.QMatchBoardPost.matchBoardPost;
-
 import com.project.autonomous.common.entity.City;
 import com.project.autonomous.matchboard.posts.dto.response.MatchBoardPostSimpleInfoRes;
 import com.project.autonomous.matchboard.posts.dto.response.QMatchBoardPostSimpleInfoRes;
 import com.project.autonomous.matchboard.posts.entity.MatchBoardCategory;
 import com.querydsl.core.QueryResults;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import java.util.List;
-import javax.persistence.EntityManager;
-import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
+
+import javax.persistence.EntityManager;
+import java.util.List;
+
+import static com.project.autonomous.matchboard.posts.entity.QMatchBoardPost.matchBoardPost;
 
 public class MatchBoardPostRepositoryImpl implements MatchBoardPostQRepository {
 

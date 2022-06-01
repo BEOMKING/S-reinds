@@ -3,10 +3,11 @@ package com.project.autonomous.matchboard.comments.dto.response;
 import com.project.autonomous.matchboard.comments.entity.MatchBoardComment;
 import com.project.autonomous.user.dto.response.UserSimpleInfoRes;
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+
+import java.time.LocalDateTime;
 
 @Getter
 @Builder

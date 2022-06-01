@@ -1,11 +1,11 @@
 package com.project.autonomous.chat.dto.response;
 
 import com.project.autonomous.chat.entity.ChatMessage;
-import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
+
+import java.time.LocalDateTime;
 
 @Getter
 @Builder

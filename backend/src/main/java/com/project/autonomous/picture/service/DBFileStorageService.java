@@ -4,14 +4,14 @@ import com.project.autonomous.common.exception.CustomException;
 import com.project.autonomous.common.exception.ErrorCode;
 import com.project.autonomous.picture.entity.Picture;
 import com.project.autonomous.picture.repository.PictureRepository;
-import java.io.IOException;
-import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import java.io.IOException;
+import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor

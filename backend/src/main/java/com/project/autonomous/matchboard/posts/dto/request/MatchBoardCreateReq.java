@@ -1,8 +1,5 @@
 package com.project.autonomous.matchboard.posts.dto.request;
 
-import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
-
 import com.project.autonomous.common.entity.City;
 import com.project.autonomous.matchboard.posts.entity.MatchBoardCategory;
 import com.project.autonomous.matchboard.posts.entity.MatchBoardPost;
@@ -10,11 +7,15 @@ import com.project.autonomous.team.entity.SportCategory;
 import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.user.entity.User;
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import javax.validation.constraints.NotBlank;
 import lombok.Getter;
 import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.validation.constraints.NotBlank;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
+import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
 
 @Getter
 public class MatchBoardCreateReq {

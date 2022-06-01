@@ -2,18 +2,10 @@ package com.project.autonomous.notification.entity;
 
 import com.project.autonomous.common.entity.BaseEntity;
 import com.project.autonomous.user.entity.User;
+import lombok.*;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @Entity
 @Getter

@@ -1,6 +1,5 @@
 package com.project.autonomous.team.controller;
 
-import com.project.autonomous.team.dto.request.PostingReq;
 import com.project.autonomous.team.dto.request.SchedulePostReq;
 import com.project.autonomous.team.dto.response.CalendarRes;
 import com.project.autonomous.team.entity.Calendar;

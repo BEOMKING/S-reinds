@@ -23,15 +23,16 @@ import com.project.autonomous.user.entity.UserTeam;
 import com.project.autonomous.user.repository.UserInterestRepository;
 import com.project.autonomous.user.repository.UserRepository;
 import com.project.autonomous.user.repository.UserTeamRepository;
-import java.io.IOException;
-import java.util.List;
-import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

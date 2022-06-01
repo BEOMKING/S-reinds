@@ -7,23 +7,13 @@ import com.project.autonomous.matchboard.posts.dto.request.MatchBoardUpdateReq;
 import com.project.autonomous.team.entity.SportCategory;
 import com.project.autonomous.team.entity.Team;
 import com.project.autonomous.user.entity.User;
+import lombok.*;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @Getter
 @Entity

@@ -8,10 +8,11 @@ import com.project.autonomous.user.dto.response.MyInfoRes;
 import com.project.autonomous.user.dto.response.UserInfoRes;
 import com.project.autonomous.user.dto.response.UserInterestRes;
 import com.project.autonomous.user.dto.response.UserTeamListRes;
-import java.io.IOException;
-import java.util.List;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
+
+import java.io.IOException;
+import java.util.List;
 
 public interface UserService {
 

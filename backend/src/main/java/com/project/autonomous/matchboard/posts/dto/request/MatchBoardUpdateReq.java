@@ -1,13 +1,14 @@
 package com.project.autonomous.matchboard.posts.dto.request;
 
-import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
-
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDate;
-import javax.validation.constraints.NotBlank;
 import lombok.Getter;
 import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.validation.constraints.NotBlank;
+import java.time.LocalDate;
+
+import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
+import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
 
 @Getter
 public class MatchBoardUpdateReq {

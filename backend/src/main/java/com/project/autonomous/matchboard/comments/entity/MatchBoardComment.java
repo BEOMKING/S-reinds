@@ -3,16 +3,13 @@ package com.project.autonomous.matchboard.comments.entity;
 import com.project.autonomous.common.entity.BaseEntity;
 import com.project.autonomous.matchboard.posts.entity.MatchBoardPost;
 import com.project.autonomous.user.entity.User;
-import java.time.LocalDateTime;
+import lombok.*;
+
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import java.time.LocalDateTime;
 
 @Getter
 @Entity

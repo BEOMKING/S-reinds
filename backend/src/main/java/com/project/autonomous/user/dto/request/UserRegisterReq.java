@@ -1,30 +1,24 @@
 package com.project.autonomous.user.dto.request;
 
-import static com.project.autonomous.common.exception.ValidatorMessage.DATE_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.EMAIL_MESSAGE;
-import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_NAME_MESSAGE;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_PHONE_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_PHONE_MESSAGE;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_PW_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_PW_MESSAGE;
-
 import com.project.autonomous.common.entity.City;
 import com.project.autonomous.picture.entity.Picture;
 import com.project.autonomous.user.entity.User;
 import com.project.autonomous.user.entity.UserAuthority;
 import io.swagger.v3.oas.annotations.media.Schema;
-import java.time.LocalDate;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.multipart.MultipartFile;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import java.time.LocalDate;
+
+import static com.project.autonomous.common.exception.ValidatorMessage.*;
 
 @Getter
 @AllArgsConstructor

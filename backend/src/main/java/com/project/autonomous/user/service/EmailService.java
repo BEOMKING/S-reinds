@@ -1,16 +1,12 @@
 package com.project.autonomous.user.service;
 
-import com.project.autonomous.jwt.util.SecurityUtil;
 import com.project.autonomous.user.dto.request.AuthCode;
 import com.project.autonomous.user.entity.Email;
 import com.project.autonomous.user.repository.EmailRepository;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

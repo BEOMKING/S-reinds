@@ -1,19 +1,18 @@
 package com.project.autonomous.user.dto.request;
 
-import static com.project.autonomous.common.exception.ValidatorMessage.EMPTY_MESSAGE;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_PW_FORMAT;
-import static com.project.autonomous.common.exception.ValidatorMessage.USER_PW_MESSAGE;
-
 import io.swagger.v3.oas.annotations.media.Schema;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+
+import static com.project.autonomous.common.exception.ValidatorMessage.*;
 
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
